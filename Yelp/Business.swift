@@ -62,7 +62,7 @@ class Business: NSObject {
             distance = nil
         }
         
-        let rating = dictionary["rating"] as? Double
+        let rating = dictionary["rating"] as! Double
         if rating != nil {
             switch rating {
                 case 1:
