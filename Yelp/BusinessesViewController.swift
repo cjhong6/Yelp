@@ -94,7 +94,7 @@ class BusinessesViewController: UIViewController, UITableViewDataSource, UITable
     
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
         searchBar.showsCancelButton = false
-        searchBar.text = ""
+//        searchBar.text = ""
         searchBar.resignFirstResponder()
     }
 
